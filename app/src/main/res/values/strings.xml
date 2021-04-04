@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lotto Template 4.3.0v2 Sheikh</string>
+
+    <string name="vip">จับยี่กี VIP</string>
+    <string name="round">รอบที่ 67</string>
+    <string name="bottom">2 ตัวล่าง</string>
+    <string name="jan">5 ม.ค. 64</string>
+    <string name="top">3 ตัวบน</string>
+    <string name="goverment_lottery">หวยรัฐบาล</string>
+
+    <string name="facebook_app_id">2783890948593209</string>
+    <string name="fb_login_protocol_scheme">fb2783890948593209</string>
+
+
+</resources>

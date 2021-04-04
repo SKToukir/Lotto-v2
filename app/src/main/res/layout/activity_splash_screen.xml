@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.SplashScreenActivity">
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/splashContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:paddingBottom="40dp"
+            android:src="@drawable/banner" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Lotto Template 4.3.0v2"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+  <RelativeLayout
+      android:id="@+id/rlLoadingContainer"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <ProgressBar
+          android:layout_centerInParent="true"
+          android:indeterminate="true"
+          android:id="@+id/progression"
+          android:layout_width="150dp"
+          android:layout_height="wrap_content" />
+
+
+      <TextView
+          style="@style/text_view_font_color"
+          android:text="Please wait a while ..."
+          android:layout_marginTop="@dimen/px20"
+          android:layout_below="@+id/progression"
+          android:layout_centerInParent="true"
+          android:textColor="@color/colorAccent"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
+  </RelativeLayout>
+
+</RelativeLayout>

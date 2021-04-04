@@ -1,0 +1,2136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView
+        style="@style/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="15dp"
+                            android:src="@drawable/star_not_filled"
+                            android:layout_width="21dp"
+                            android:layout_height="20dp"/>
+
+
+                        <TextView
+                            android:layout_marginTop="6dp"
+                            android:text="หวยหุ้นต่างประเทศ"
+                            android:layout_marginLeft="10dp"
+                            style="@style/bold_text_colored"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <TextView
+                    android:textColor="@color/textColor"
+                    android:fontFamily="@font/sarabunregular"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="15sp"
+                    android:layout_alignParentRight="true"
+                    android:text="5 ม.ค. 64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:src="@drawable/southkorea"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                    <TextView
+                        android:text="หุ้นเกาหลี"
+                        android:layout_marginLeft="20dp"
+                        style="@style/bold_text_sixteen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="3 ตัวบน"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="121"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="2 ตัวล่าง"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="34"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:src="@drawable/jp"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                    <TextView
+                        android:text="นิเคอิ รอบเช้า"
+                        android:layout_marginLeft="20dp"
+                        style="@style/bold_text_sixteen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="3 ตัวบน"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="121"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="2 ตัวล่าง"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="34"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:src="@drawable/jp"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                    <TextView
+                        android:text="นิเคอิ รอบบ่าย"
+                        android:layout_marginLeft="20dp"
+                        style="@style/bold_text_sixteen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/sunrise"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="3 ตัวบน"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="121"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="2 ตัวล่าง"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="34"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:src="@drawable/hongkong"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                    <TextView
+                        android:text="ฮั่งเส็ง รอบเช้า"
+                        android:layout_marginLeft="20dp"
+                        style="@style/bold_text_sixteen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/sunrise"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="3 ตัวบน"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="121"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="2 ตัวล่าง"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="34"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:src="@drawable/hongkong"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                    <TextView
+                        android:text="ฮั่งเส็ง รอบบ่าย"
+                        android:layout_marginLeft="20dp"
+                        style="@style/bold_text_sixteen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/sunrise"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="3 ตัวบน"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="121"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="2 ตัวล่าง"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="34"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/cn" />
+
+                    <TextView
+                        android:text="จีน รอบเช้า"
+                        android:layout_marginLeft="20dp"
+                        style="@style/bold_text_sixteen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="3 ตัวบน"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="121"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="2 ตัวล่าง"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="34"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:src="@drawable/cn"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                    <TextView
+                        android:text="จีน รอบบ่าย"
+                        android:layout_marginLeft="20dp"
+                        style="@style/bold_text_sixteen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/sunrise"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="3 ตัวบน"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="121"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="2 ตัวล่าง"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="34"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ws" />
+
+                    <TextView
+                        android:text="หุ้นไต้หวัน"
+                        android:layout_marginLeft="20dp"
+                        style="@style/bold_text_sixteen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="3 ตัวบน"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="121"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="2 ตัวล่าง"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="34"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:src="@drawable/sg"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                    <TextView
+                        android:text="หุ้นสิงคโปร์"
+                        android:layout_marginLeft="20dp"
+                        style="@style/bold_text_sixteen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/sunrise"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="3 ตัวบน"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="121"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="2 ตัวล่าง"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="34"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:src="@drawable/egypt"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                    <TextView
+                        android:text="หุ้นอียิปต์"
+                        android:layout_marginLeft="20dp"
+                        style="@style/bold_text_sixteen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/sunrise"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="3 ตัวบน"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="121"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="2 ตัวล่าง"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="34"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:src="@drawable/germany"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                    <TextView
+                        android:text="หุ้นเยอรมัน"
+                        android:layout_marginLeft="20dp"
+                        style="@style/bold_text_sixteen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/sunrise"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="3 ตัวบน"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="121"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="2 ตัวล่าง"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="34"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:src="@drawable/uk"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                    <TextView
+                        android:text="หุ้นอังกฤษ"
+                        android:layout_marginLeft="20dp"
+                        style="@style/bold_text_sixteen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/sunrise"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="3 ตัวบน"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="121"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="2 ตัวล่าง"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="34"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:src="@drawable/russia"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                    <TextView
+                        android:text="หุ้นรัสเซีย"
+                        android:layout_marginLeft="20dp"
+                        style="@style/bold_text_sixteen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/sunrise"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="3 ตัวบน"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="121"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="2 ตัวล่าง"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="34"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:src="@drawable/in"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                    <TextView
+                        android:text="หุ้นอินเดีย"
+                        android:layout_marginLeft="20dp"
+                        style="@style/bold_text_sixteen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/sunrise"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="3 ตัวบน"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="121"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="2 ตัวล่าง"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="34"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:src="@drawable/us"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                    <TextView
+                        android:text="หุ้นดาวน์โจน"
+                        android:layout_marginLeft="20dp"
+                        style="@style/bold_text_sixteen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/sunrise"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="3 ตัวบน"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="121"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="2 ตัวล่าง"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="34"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:src="@drawable/my"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                    <TextView
+                        android:text="หวยมาเลย์"
+                        android:layout_marginLeft="20dp"
+                        style="@style/bold_text_sixteen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/sunrise"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="3 ตัวบน"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="121"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="2 ตัวล่าง"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="34"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:src="@drawable/la"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                    <TextView
+                        android:text="หวยลาว"
+                        android:layout_marginLeft="20dp"
+                        style="@style/bold_text_sixteen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/sunrise"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="3 ตัวบน"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="121"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="2 ตัวล่าง"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="34"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:src="@drawable/ma"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                    <TextView
+                        android:text="หวยเวียดนาม ฮานอย"
+                        android:layout_marginLeft="20dp"
+                        style="@style/bold_text_sixteen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/sunrise"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="3 ตัวบน"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="121"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="2 ตัวล่าง"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="34"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:src="@drawable/ma"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                    <TextView
+                        android:text="หวยเวียดนาม ฮานอย VIP"
+                        android:layout_marginLeft="20dp"
+                        style="@style/bold_text_sixteen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/sunrise"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="3 ตัวบน"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="121"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            style="@style/text_view_font_color"
+                            android:textSize="13sp"
+                            android:fontFamily="@font/sarabunbold"
+                            android:text="2 ตัวล่าง"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                        <View
+                            android:background="#DBDBDB"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:text="34"
+                            style="@style/bold_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="26dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
