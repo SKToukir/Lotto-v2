@@ -48,7 +48,7 @@
 
 
       <TextView
-          style="@style/text_view_font_color"
+          style="@style/bold_text_colored"
           android:text="Please wait a while ..."
           android:layout_marginTop="@dimen/px20"
           android:layout_below="@+id/progression"

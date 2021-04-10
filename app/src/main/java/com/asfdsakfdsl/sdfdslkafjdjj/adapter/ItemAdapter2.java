@@ -11,26 +11,26 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.asfdsakfdsl.sdfdslkafjdjj.R;
 
-public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder> {
-    
+public class ItemAdapter2 extends RecyclerView.Adapter<ItemAdapter2.ItemViewHolder> {
+
     private Context context;
 
-    public ItemAdapter(Context context) {
+    public ItemAdapter2(Context context) {
         this.context = context;
     }
 
     @NonNull
     @Override
     public ItemViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        
+
         View view = LayoutInflater.from(context).inflate(R.layout.item, parent, false);
-        
+
         return new ItemViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull ItemViewHolder holder, int position) {
-        holder.txtItem.setText("หวยยี่กี รอบที่ "+String.valueOf(position+1));
+        holder.txtItem.setText("หวยยี่กี วีไอพี รอบที่ "+String.valueOf(position+1));
     }
 
     @Override
